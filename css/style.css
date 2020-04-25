@@ -1,0 +1,57 @@
+body{
+	font-size: 16px;
+  box-sizing: border-box;
+  width: 100%;
+	
+}
+h1{
+  padding: 16px;
+}
+.ownnav{
+  background-color: #999999;
+  border: 2px solid black;
+  padding: 8px 5px 0px;
+
+
+}
+.respon {
+  border: 1px solid black;
+  color: black;
+
+}
+.navbar-toggler-icon{
+    font-size: 1.7em;
+}
+.navbar-toggler{
+  border: 2px solid black !important;
+  stroke: rgb(0,0,0) !important;
+}
+ .navbar-toggler:focus{
+  color: white;
+ }
+.nav-link{
+  color: black;
+  font-family: bold
+}
+  
+h2{
+  font-weight: bold;
+  margin: 10px 0 20px;
+}
+
+.content{
+  background-color: #999999;  
+}
+.but{
+  border: 2ps;
+}
+
+
+@media (max-width: 576px){
+  .content{
+  background-color: #999999;  
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+}
